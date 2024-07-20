@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h2>Login Form</h2>
+        <form id="loginForm">
+            <label for="userid">User ID:</label>
+            <input type="text" id="userid" name="userid" required> <!-- User ID input field -->
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required> <!-- Password input field -->
+
+            <button type="submit">Login</button> <!-- Submit button -->
+        </form>
+        <p id="message"></p> <!-- Message paragraph to display validation results -->
+    </div>
+    <script src="jquery-3.7.1.min.js"></script> <!-- Link to external JavaScript file -->
+    <script src="jquery.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>

@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Font style for the page */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background: radial-gradient(circle, white, rgb(11, 18, 18)); 
+}
+
+.container {
+   width: 50vh;
+    background-color: radial-gradiant; /* White background for the form container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 5px; /* Rounded corners */
+    
+    background: radial-gradient(circle, white, rgb(234, 174, 222)); 
+}
+
+h2,label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+label {
+    display: block; /* Make labels block-level to stack vertically */
+    margin-bottom: 5px; /* Space between label and input field */
+    
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%; 
+        padding: 8px; 
+        margin-top: 5px; 
+        border: 3px solid #00060c; 
+        border-radius: 10px; 
+        box-sizing:border-box;
+}
+
+button {
+    padding: 10px 15px; /* Space inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#message {
+    margin-top: 10px; /* Space above the message */
+    color: red; /* Red text color for error messages */
+}
